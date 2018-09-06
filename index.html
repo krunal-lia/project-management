@@ -1,0 +1,104 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="resources/style.css">
+        <title>Create Project</title>
+    </head>
+
+    <body>
+        <div class="nav-bar clearfix">
+            <img src="resources/logo.png" alt="logo">
+            <div class="other-contents">
+                <a href="# clearfix">Create Project</a>
+                <div class="field">
+                    <label for="search">
+                        <ion-icon name="search"></ion-icon>
+                    </label>
+                    <input type="text" placeholder="just name a project" name="search" id="search" class="search">
+                </div>
+                <p class="account-balance clearfix">Account Balance<span>123</span></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <form>
+            <div class="field">
+                <div class="label">
+                    <label for="name">Project Name</label>
+                </div>
+                <div class="input-type">
+                    <input type="text" placeholder="Name of the project" name="name" id="name" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="label">
+                    <label for="number">Project Number</label>
+                </div>
+                <div class="input-type">
+                    <input type="text" placeholder="Enter the project number" name="number" id="search" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="label">
+                    <label>User accounts</label>
+                </div>
+                <div class="input-type">
+                <input type="checkbox" name="user-acc" id="user-acc"><span>All</span>  
+                    <select name="accounts" id="accounts" class="accounts">
+                        <option value="interactive" selected>Interactive account</option>
+                        <option value="non-user">Non User account</option>
+                        <option value="system">System account</option>
+                        <option value="other">Other</option>
+                    </select> 
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="label">
+                    <label>Project Category</label>
+                </div>
+                <div class="input-type">
+                    <select name="category" id="category">
+                        <option value="manufacturing" selected>Manufacturing Projects</option>
+                        <option value="management">Management Projects</option>
+                        <option value="civil">Civil Engineering</option>
+                        <option value="other">Other</option>
+                    </select> 
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="label">
+                    <label>Project type</label>
+                </div>
+                <div class="input-type">
+                    <select name="type" id="type">
+                        <option value="admin" selected>Administrative</option>
+                        <option value="construction">Construction</option>
+                        <option value="software">Computer Software</option>
+                        <option value="research">Research</option>
+                        <option value="other">Others</option>
+                    </select> 
+                </div>
+            </div>
+
+            <div class="field buttons">
+                <div class="label">
+                    <label></label>
+                </div>
+                <div class="input-type">
+                    <input type="submit" value="Draft" class="btn">
+                    <input type="submit" value="Next" class="btn">
+                </div>
+            </div>
+        </form>
+    </body>
+    
+</html>
+
