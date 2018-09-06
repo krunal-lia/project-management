@@ -88,6 +88,7 @@ body {
 .btn:hover {
 
     background-color: #a00143;
+    cursor: pointer;
 }
 .nav-bar input::placeholder {
 
@@ -151,7 +152,7 @@ form select {
 
 
 .accounts {
-    width: 80%;
+    width: 79%;
 }
 
 .input-type span {
@@ -163,6 +164,7 @@ form select {
 input[type=checkbox] {
     zoom: 1.6;
     vertical-align: middle;
+    margin-right: 2px;
 }
 
 form .field {
